@@ -642,20 +642,6 @@ CustomDigits
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-4Dbutton
-    Name                         4Dbutton0
-    Alias                        4Dbutton0
-    Height                       48
-    Left                         4
-    Matrix                       -1
-    Momentary                    No
-    Size                         48x48
-    Style                        Red
-    Top                          192
-    Type                         Slider01
-    Width                        48
-    OnChanged                    'Report Message'
-end
 Form
     Name                         Form2
     Alias                        Form2
@@ -1120,20 +1106,6 @@ CustomDigits
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
-end
-4Dbutton
-    Name                         4Dbutton1
-    Alias                        4Dbutton1
-    Height                       48
-    Left                         4
-    Matrix                       -1
-    Momentary                    No
-    Size                         48x48
-    Style                        Red
-    Top                          192
-    Type                         Slider01
-    Width                        48
-    OnChanged                    'Report Message'
 end
 Form
     Name                         Form3
@@ -1600,20 +1572,6 @@ CustomDigits
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-4Dbutton
-    Name                         4Dbutton2
-    Alias                        4Dbutton2
-    Height                       48
-    Left                         4
-    Matrix                       -1
-    Momentary                    No
-    Size                         48x48
-    Style                        Red
-    Top                          192
-    Type                         Slider01
-    Width                        48
-    OnChanged                    'Report Message'
-end
 Form
     Name                         Form4
     Alias                        Form4
@@ -2079,20 +2037,6 @@ CustomDigits
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-4Dbutton
-    Name                         4Dbutton3
-    Alias                        4Dbutton3
-    Height                       48
-    Left                         4
-    Matrix                       -1
-    Momentary                    No
-    Size                         48x48
-    Style                        Red
-    Top                          192
-    Type                         Slider01
-    Width                        48
-    OnChanged                    'Report Message'
-end
 Form
     Name                         Form5
     Alias                        Form5
@@ -2538,18 +2482,18 @@ StaticText
     Name                         Statictext19
     Alias                        Statictext19
     AutoSize                     Yes
-    Caption                      'GUI Ver. 1.01'
+    Caption                      'GUI Ver. 1.02'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    Tahoma
     Font.Size                    9
     Font.Style                   []
-    Height                       16
+    Height                       14
     Left                         232
     Top                          196
     Transparent                  Yes
-    Width                        84
+    Width                        76
     WordWrap                     Yes
 end
 WinButton
