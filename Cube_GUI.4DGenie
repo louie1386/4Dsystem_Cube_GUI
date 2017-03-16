@@ -1,5 +1,5 @@
 ﻿Version     0.0
-Platform    Gen4-uLCD-24DT-L
+Platform    Gen4-uLCD-28DT-L
 PlatRes     240x320
 Depends
 end
@@ -20,11 +20,11 @@ Form
     Alias                        Form0
     Bgtype                       Image
     Color                        WHITE
-    Image                        有LOGO背景_無AB.png
-    Source.Height                240
+    Image                        有logo.png
+    Source.Height                511
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 320
+    Source.Width                 681
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -2533,4 +2533,453 @@ end
     Type                         Slider01
     Width                        48
     OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext19
+    Alias                        Statictext19
+    AutoSize                     Yes
+    Caption                      'GUI Ver. 1.01'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   []
+    Height                       16
+    Left                         232
+    Top                          196
+    Transparent                  Yes
+    Width                        84
+    WordWrap                     Yes
+end
+WinButton
+    Name                         Winbutton25
+    Alias                        Winbutton25
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   WHITE
+    Caption                      'PD ADC'
+    Color                        0xFA8CB3
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       29
+    Left                         260
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          164
+    Width                        57
+    OnChanged                    Form6Activate
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Form
+    Name                         Form6
+    Alias                        Form6
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits6
+    Alias                        Leddigits6
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       26
+    LeadingZero                  No
+    Left                         196
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  0x005100
+    Top                          20
+    Width                        114
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext20
+    Alias                        Statictext20
+    AutoSize                     Yes
+    Caption                      1A
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         172
+    Top                          20
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext21
+    Alias                        Statictext21
+    AutoSize                     Yes
+    Caption                      1B
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         172
+    Top                          45
+    Transparent                  Yes
+    Width                        18
+    WordWrap                     Yes
+end
+LedDigits
+    Name                         Leddigits7
+    Alias                        Leddigits7
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       26
+    LeadingZero                  No
+    Left                         196
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  0x005100
+    Top                          50
+    Width                        114
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits8
+    Alias                        Leddigits8
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       26
+    LeadingZero                  No
+    Left                         196
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  0x005100
+    Top                          120
+    Width                        114
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits9
+    Alias                        Leddigits9
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       26
+    LeadingZero                  No
+    Left                         196
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  0x005100
+    Top                          150
+    Width                        114
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits10
+    Alias                        Leddigits10
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       26
+    LeadingZero                  No
+    Left                         32
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  0x005100
+    Top                          120
+    Width                        114
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits11
+    Alias                        Leddigits11
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       26
+    LeadingZero                  No
+    Left                         32
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  0x005100
+    Top                          150
+    Width                        114
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits12
+    Alias                        Leddigits12
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       26
+    LeadingZero                  No
+    Left                         32
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  0x005100
+    Top                          20
+    Width                        114
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits13
+    Alias                        Leddigits13
+    Color                        BLACK
+    Decimals                     0
+    Digits                       5
+    Height                       26
+    LeadingZero                  No
+    Left                         32
+    OutlineColor                 BLACK
+    Palette.High                 clLime
+    Palette.Low                  0x005100
+    Top                          50
+    Width                        114
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext22
+    Alias                        Statictext22
+    AutoSize                     Yes
+    Caption                      2A
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       21
+    Left                         172
+    Top                          120
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext23
+    Alias                        Statictext23
+    AutoSize                     Yes
+    Caption                      2B
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         172
+    Top                          150
+    Transparent                  Yes
+    Width                        18
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext28
+    Alias                        Statictext28
+    AutoSize                     Yes
+    Caption                      3A
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         8
+    Top                          120
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext29
+    Alias                        Statictext29
+    AutoSize                     Yes
+    Caption                      3B
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         8
+    Top                          150
+    Transparent                  Yes
+    Width                        18
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext30
+    Alias                        Statictext30
+    AutoSize                     Yes
+    Caption                      4A
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         8
+    Top                          20
+    Transparent                  Yes
+    Width                        20
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext31
+    Alias                        Statictext31
+    AutoSize                     Yes
+    Caption                      4B
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    12
+    Font.Style                   []
+    Height                       19
+    Left                         8
+    Top                          60
+    Transparent                  Yes
+    Width                        18
+    WordWrap                     Yes
+end
+4Dbutton
+    Name                         4Dbutton6
+    Alias                        4Dbutton6
+    Height                       48
+    Left                         256
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Red
+    Top                          75
+    Type                         Slider01
+    Width                        48
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton7
+    Alias                        4Dbutton7
+    Height                       48
+    Left                         256
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Red
+    Top                          175
+    Type                         Slider01
+    Width                        48
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton8
+    Alias                        4Dbutton8
+    Height                       48
+    Left                         32
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Red
+    Top                          175
+    Type                         Slider01
+    Width                        48
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton9
+    Alias                        4Dbutton9
+    Height                       48
+    Left                         32
+    Matrix                       -1
+    Momentary                    No
+    Size                         48x48
+    Style                        Red
+    Top                          75
+    Type                         Slider01
+    Width                        48
+    OnChanged                    ''
+end
+4Dbutton
+    Name                         4Dbutton10
+    Alias                        4Dbutton10
+    Height                       48
+    Left                         144
+    Matrix                       -1
+    Momentary                    Yes
+    Size                         48x48
+    Style                        Blue
+    Top                          180
+    Type                         Button02
+    Width                        48
+    OnChanged                    Form5Activate
 end

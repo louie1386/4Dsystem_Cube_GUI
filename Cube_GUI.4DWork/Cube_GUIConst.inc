@@ -1,4 +1,4 @@
-// File generated 2017/1/11 ¤U¤È 03:59:06
+// File generated 2017/3/11 ¤U¤È 05:21:10
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
@@ -126,6 +126,37 @@
     iStatictext17   // offset 0x54DE00
     iStatictext18   // offset 0x54EC00
     i4Dbutton5      // offset 0x54F200
+    iStatictext19   // offset 0x553C00
+    iWinbutton25    // offset 0x554800
+    iLeddigits6     // offset 0x556200
+    iiLeddigits6    // offset 0x557A00
+    iStatictext20   // offset 0x55AA00
+    iStatictext21   // offset 0x55AE00
+    iLeddigits7     // offset 0x55B200
+    iiLeddigits7    // offset 0x55CA00
+    iLeddigits8     // offset 0x55FA00
+    iiLeddigits8    // offset 0x561200
+    iLeddigits9     // offset 0x564200
+    iiLeddigits9    // offset 0x565A00
+    iLeddigits10    // offset 0x568A00
+    iiLeddigits10   // offset 0x56A200
+    iLeddigits11    // offset 0x56D200
+    iiLeddigits11   // offset 0x56EA00
+    iLeddigits12    // offset 0x571A00
+    iiLeddigits12   // offset 0x573200
+    iLeddigits13    // offset 0x576200
+    iiLeddigits13   // offset 0x577A00
+    iStatictext22   // offset 0x57AA00
+    iStatictext23   // offset 0x57AE00
+    iStatictext28   // offset 0x57B200
+    iStatictext29   // offset 0x57B600
+    iStatictext30   // offset 0x57BA00
+    iStatictext31   // offset 0x57BE00
+    i4Dbutton6      // offset 0x57C200
+    i4Dbutton7      // offset 0x580C00
+    i4Dbutton8      // offset 0x585600
+    i4Dbutton9      // offset 0x58A000
+    i4Dbutton10     // offset 0x58EA00
 #END
 
 #IFNOT EXISTS NOGLOBALS

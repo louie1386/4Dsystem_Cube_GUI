@@ -1,6 +1,6 @@
-#platform "Gen4-uLCD-24DT"
+#platform "Gen4-uLCD-28DT"
 
-// generated 2017/1/11 ¤U¤È 03:59:23
+// generated 2017/3/11 ¤U¤È 05:21:33
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -123,16 +123,16 @@
     REPORT_MAGIC_EVENT_BYTES 10
     REPORT_MAGIC_EVENT_DBYTES 11
 // End P1.inc
-    nObjects        122
-    nInputs         64
+    nObjects        153
+    nInputs         72
     nAniTimers      0
     nScopes         4
 #END
 
 #DATA
-    word FormStartIndex 0, 14, 36, 58, 80, 102
-    word FormEndIndex 14, 36, 58, 80, 102, 122
-    word InputControls -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 44, 88, 110, 154, 198, -1, -1, -1, 242, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 286, 330, 374, 396, 440, -1, -1, -1, 484, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 528, 572, 616, 660, 682, -1, -1, -1, 726, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 770, 814, 858, 902, 946, -1, -1, -1, 968, -1, -1, -1, -1, 1012, 1056, 1100, 1144, 1188, 1232, 1276, -1, -1, 1320, -1, -1, -1, -1, -1, 1364
+    word FormStartIndex 0, 14, 36, 58, 80, 102, 124
+    word FormEndIndex 14, 36, 58, 80, 102, 124, 153
+    word InputControls -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 44, 88, 110, 154, 198, -1, -1, -1, 242, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 286, 330, 374, 396, 440, -1, -1, -1, 484, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 528, 572, 616, 660, 682, -1, -1, -1, 726, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 770, 814, 858, 902, 946, -1, -1, -1, 968, -1, -1, -1, -1, 1012, 1056, 1100, 1144, 1188, 1232, 1276, -1, -1, 1320, -1, -1, -1, -1, -1, 1364, -1, 1408, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1452, 1474, 1496, 1518, 1540
     word InputData tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 22, 2,
                 OT_ACTIVATE, 10, 5, 0, 18, 0, 0, 0, 0, 0, 0,
                 tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 66, 2,
@@ -196,42 +196,50 @@
                 t4Dbutton, 1, -1, -1, -1, -1, -1, -1, 0, 1342, 10,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4,
                 t4Dbutton, 0, -1, -1, -1, -1, -1, -1, 0, 1386, 12,
-                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5,
+                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 1430, 52,
+                OT_ACTIVATE, 10, 6, 0, 18, 0, 0, 0, 0, 0, 0,
+                t4Dbutton, 0, -1, -1, -1, -1, -1, -1, 0, 0, 14,
+                t4Dbutton, 0, -1, -1, -1, -1, -1, -1, 0, 0, 16,
+                t4Dbutton, 0, -1, -1, -1, -1, -1, -1, 0, 0, 18,
+                t4Dbutton, 0, -1, -1, -1, -1, -1, -1, 0, 0, 20,
+                t4Dbutton, 1, -1, -1, -1, -1, -1, -1, 0, 1562, 22,
+                OT_ACTIVATE, 10, 5, 0, 18, 0, 0, 0, 0, 0, 0
     word oDipSwitchs 0
     word oKnobs 2, iKnob0, iKnob1
     word oRockerSwitchs 0
     word oRotarySwitchs 0
     word oGSliders 0
     word oTrackbars 0
-    word oWinButtons 25, iWinbutton0, iWinbutton1, iWinbutton2, iWinbutton3, iWinbutton4, iWinbutton5, iWinbutton6, iWinbutton7, iWinbutton8, iWinbutton9, iWinbutton10, iWinbutton11, iWinbutton12, iWinbutton13, iWinbutton14, iWinbutton15, iWinbutton16, iWinbutton17, iWinbutton18, iWinbutton19, iWinbutton20, iWinbutton21, iWinbutton22, iWinbutton23, iWinbutton24
+    word oWinButtons 26, iWinbutton0, iWinbutton1, iWinbutton2, iWinbutton3, iWinbutton4, iWinbutton5, iWinbutton6, iWinbutton7, iWinbutton8, iWinbutton9, iWinbutton10, iWinbutton11, iWinbutton12, iWinbutton13, iWinbutton14, iWinbutton15, iWinbutton16, iWinbutton17, iWinbutton18, iWinbutton19, iWinbutton20, iWinbutton21, iWinbutton22, iWinbutton23, iWinbutton24, iWinbutton25
     word oAngularmeters 0
     word oCoolgauges 0
     word oCustomdigitss 18, iCustomdigits0, iCustomdigits1, iCustomdigits2, iCustomdigits3, iCustomdigits4, iCustomdigits5, iCustomdigits6, iCustomdigits7, iCustomdigits8, iCustomdigits9, iCustomdigits10, iCustomdigits11, iCustomdigits12, iCustomdigits13, iCustomdigits14, iCustomdigits15, iCustomdigits16, iCustomdigits17
-    word oForms 6, iForm0, iForm1, iForm2, iForm3, iForm4, -1
+    word oForms 7, iForm0, iForm1, iForm2, iForm3, iForm4, -1, -1
     word oGauges 0
     word oImages 0
     word oKeyboards 0
     word oLeds 0
-    word oLeddigitss 6, iLeddigits0, iLeddigits1, iLeddigits2, iLeddigits3, iLeddigits4, iLeddigits5
+    word oLeddigitss 14, iLeddigits0, iLeddigits1, iLeddigits2, iLeddigits3, iLeddigits4, iLeddigits5, iLeddigits6, iLeddigits7, iLeddigits8, iLeddigits9, iLeddigits10, iLeddigits11, iLeddigits12, iLeddigits13
     word oMeters 0
     word oStringss 0
     word oThermometers 0
     word oUserleds 0
     word oVideos 0
-    word oStaticTexts 28, iStatictext0, iStatictext1, iStatictext2, iStatictext3, iStatictext4, iStatictext5, iStatictext6, iStatictext7, iStatictext8, iStatictext9, iStatictext10, iStatictext11, iStatictext12, iStatictext13, iStatictext14, iStatictext15, iStatictext16, iStatictext17, iStatictext18, -1, -1, -1, -1, -1, iStatictext24, iStatictext25, iStatictext26, iStatictext27
+    word oStaticTexts 32, iStatictext0, iStatictext1, iStatictext2, iStatictext3, iStatictext4, iStatictext5, iStatictext6, iStatictext7, iStatictext8, iStatictext9, iStatictext10, iStatictext11, iStatictext12, iStatictext13, iStatictext14, iStatictext15, iStatictext16, iStatictext17, iStatictext18, iStatictext19, iStatictext20, iStatictext21, iStatictext22, iStatictext23, iStatictext24, iStatictext25, iStatictext26, iStatictext27, iStatictext28, iStatictext29, iStatictext30, iStatictext31
     word oSpectrums 0
     word oScopes 4
     word oTanks 0
     word oUserImagess 16, iUserimages0, -1, iUserimages2, -1, iUserimages4, -1, iUserimages6, -1, iUserimages8, iUserimages9, iUserimages10, iUserimages11, iUserimages12, iUserimages13, iUserimages14, iUserimages15
     word oPinInputs 0
-    word o4Dbuttons 6, i4Dbutton0, i4Dbutton1, i4Dbutton2, i4Dbutton3, i4Dbutton4, i4Dbutton5
+    word o4Dbuttons 11, i4Dbutton0, i4Dbutton1, i4Dbutton2, i4Dbutton3, i4Dbutton4, i4Dbutton5, i4Dbutton6, i4Dbutton7, i4Dbutton8, i4Dbutton9, i4Dbutton10
     word oAniButtons 0
     word oColorPickers 0
     word oUserButtons 1, iUserbutton0
     word oTimers 0
     word oSoundss 0
     word oPinOutputs 0
-    word FormBGcolors ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, 0x0000
+    word FormBGcolors ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, 0x0000, 0x0000
     word kKeyboardKeystrokes -1
     word rKeyboardRoutines -1
     word oLedDigitsn 109, 3, 1, 16, 0,
@@ -239,7 +247,15 @@
                 109, 3, 1, 16, 0,
                 109, 3, 1, 16, 0,
                 268, 3, 1, 15, 0,
-                100, 3, 1, 15, 0
+                100, 3, 1, 15, 0,
+                196, 5, 1, 22, 1,
+                196, 5, 1, 22, 1,
+                196, 5, 1, 22, 1,
+                196, 5, 1, 22, 1,
+                32, 5, 1, 22, 1,
+                32, 5, 1, 22, 1,
+                32, 5, 1, 22, 1,
+                32, 5, 1, 22, 1
     word oCustomDigitsn 189, 3, 1, 9, 0,
                 250, 3, 1, 9, 0,
                 297, 2, 1, 9, 0,
